@@ -1,0 +1,63 @@
+/* Write your code here. */
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60%;
+  align-items: flex-start;
+  width: 25%;
+}
+.heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+}
+.input-label {
+  color: #e4e7eb;
+  font-size: 20px;
+  width: 100%;
+}
+.input-element {
+  border: 1px solid #e4e7eb;
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.input-element::placeholder {
+  color: #000000;
+  font-weight: bold;
+}
+.image {
+  height: 60%;
+  width: 40%;
+}
+.count-container {
+  background-color: #ffffff;
+  height: 70px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.letters-count {
+  color: #219a6f;
+  font-weight: bold;
+  font-size: 25px;
+}
